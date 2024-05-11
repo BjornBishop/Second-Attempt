@@ -1,0 +1,6 @@
+#nav-bar {
+    font-size: 20px;
+    display: inline-flex;
+    justify-content: end;
+    list-style-type: none;
+}
