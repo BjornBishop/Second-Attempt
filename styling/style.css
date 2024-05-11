@@ -1,3 +1,4 @@
+/* this is everything to do with the navigation bar */
 .top-nav {
     overflow: hidden;
     background-color: #4d4d4d;
@@ -25,18 +26,14 @@
   .top-nav-right {
     float: right;
   }
-  @media screen and (max-width: 768px) {
-    .w-nav[data-collapse="medium"] .w-dropdown,
-    .w-nav[data-collapse="medium"] .w-dropdown-toggle {
-      display: block;
+  /* This is everything to do with the responsive design */
+  @media screen and (max-width: 550px) {
+    .top-nav-right {
+        display: none; 
     }
-    .w-nav[data-collapse="medium"] .w-dropdown-list {
-      position: static;
-    }
-    .w-nav[data-collapse="medium"] .w-nav-menu {
-      display: none;
-    }
-    .w-nav[data-collapse="medium"] .w-nav-button {
-      display: block;
+  }
+  @media screen and (max-width: 330px) {
+    .second {
+        display: none;
     }
   }
