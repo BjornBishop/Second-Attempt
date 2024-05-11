@@ -2,7 +2,7 @@
     overflow: hidden;
     background-color: #333;
 }
-.top-nav li a {
+.top-nav a {
     float: left; 
     color: #f2f2f2;
     text-align: center;
@@ -11,12 +11,12 @@
     font-size: 20px;
   }
   
-.top-nav li a:hover {
+.top-nav a:hover {
     background-color: #ddd;
     color: black;
   }
   
-  .top-nav li a.active {
+  .top-nav a.active {
     background-color: #04AA6D;
     color: white;
   }
